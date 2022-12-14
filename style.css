@@ -79,7 +79,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 60px 0 50px;
+    margin: 20px 60px 0 50px;
     padding: 20px;
 }
 
@@ -123,6 +123,26 @@ p {
 .img_filtro {
     width: 40px;
     position: absolute;
+}
+
+/* SESSAO MEMBROS*/
+
+.segunda_sessao_membros {
+    margin: 50px;
+    border-bottom: 1px solid #ebebe6;
+}
+
+.segunda_sessao_membros p {
+    font-size: 20px;
+    margin: 40px;
+}
+
+
+
+.membros {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
 }
 
 
