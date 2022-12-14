@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F3F0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#container {
+    margin: 0 10px 0 15px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px;
+}
+
+#tandem_logo {
+    width: 200px;
+    margin-top: 5px;
+}
+
+.menu_nav{
+    display: flex;
+    gap: 50px;
+    margin-top: 15px;
+}
+
+.menu_nav li {
+    width: 150px;
+    list-style: none;
+    padding: 3px;
+}
+
+li:hover {
+    background-color: #dfdfded4;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #525251;
+    font-weight: 500;
+}
+
+.cabecalho_perfil {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.foto_usuario {
+    width: 40px;
+}
+
+p {
+    color: #525251;
+    font-weight: 500;
+}
+
+.icon_seta {
+    width: 20px;
+}
+
+.icon_seta:hover {
+    background-color: #dfdfded4;
+    border-radius: 20px;
+}
+
+.primeira_sessao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 60px 0 50px;
+    padding: 20px;
+}
+
+.btn_membros {
+    background-color: #525251;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    width: 160px;
+    height: 40px;
+    border-radius: 40px;
+    font-size: 14px;
+}
+
+.btn_pertoDeMim {
+    width: 160px;
+    height: 40px;
+    border: none;
+    border: 1px solid #a5a5a4;
+    padding: 10px;
+    border-radius: 40px;
+    color: #525251;
+    font-size: 14px;
+}
+
+.botao_pesquisa {
+    position: relative;
+}
+
+.btn_pesquisa {
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    margin-right: 10px;
+    background-color: #EAE7E4;
+    color: #525251;
+    font-size: 14px;
+}
+
+.img_filtro {
+    width: 40px;
+    position: absolute;
+}
+
+
+
