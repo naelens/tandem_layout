@@ -79,7 +79,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 60px 0 50px;
+    margin: 20px 60px 0 10px;
     padding: 20px;
 }
 
@@ -103,6 +103,8 @@ p {
     border-radius: 40px;
     color: #525251;
     font-size: 14px;
+    margin-left: 10px;
+    font-weight: 400;
 }
 
 .botao_pesquisa {
@@ -132,18 +134,55 @@ p {
     border-bottom: 1px solid #ebebe6;
 }
 
-.segunda_sessao_membros p {
-    font-size: 20px;
-    margin: 40px;
+.texto_membros {
+    display: flex;
+    position: relative;
 }
 
+.texto_membros img {
+    width: 16px;
+    position: absolute;
+    left: 300px;
+    top: 6px;
+}
 
+.texto_membros p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.segunda_sessao_membros span {
+    font-size: 18px;
+    top: 180px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0 0 40px;
+}
+
+span::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #90D676;
+    border-radius: 20px;
+}
 
 .membros {
+    display: grid;
+    height: 40vh;
+    max-width: 1000vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+/*.membros {
     display: flex;
     gap: 50px;
     margin-top: 20px;
 }
+*/
 
 
 
