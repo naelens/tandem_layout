@@ -127,8 +127,6 @@ p {
     position: absolute;
 }
 
-/* SESSAO MEMBROS*/
-
 .segunda_sessao_membros {
     margin: 50px;
     border-bottom: 1px solid #ebebe6;
@@ -177,12 +175,19 @@ span::before {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-/*.membros {
-    display: flex;
-    gap: 50px;
-    margin-top: 20px;
+.sessao_usuarios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+    height: 50vh;
+    padding: 6px;
+    gap: 30px;
 }
-*/
+
+.sessao_usuarios p {
+    width: 200px;
+    font-weight: 400;
+}
 
 
 
